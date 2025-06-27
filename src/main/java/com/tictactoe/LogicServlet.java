@@ -59,7 +59,7 @@ public class LogicServlet extends HttpServlet {
         currentSession.setAttribute("data", data);
         currentSession.setAttribute("field", field);
 
-        resp.sendRedirect("/index.jsp");//
+        resp.sendRedirect("/index.jsp");////
     }
 
     private boolean checkWin(HttpServletResponse response, HttpSession currentSession, Field field) throws IOException {
